@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/scrollView"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+            <include layout="@layout/navigationheader"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/home"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".15"
+                    app:srcCompat="@drawable/ic_home_black_24dp" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".8"
+                    android:gravity="center_vertical"
+                    android:text="@string/home"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:src="@drawable/line"
+                android:background="@color/gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/shop"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".15"
+                    app:srcCompat="@drawable/ic_shop_black_24dp" />
+
+                <TextView
+                    android:layout_weight=".8"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/shop"
+                    android:textSize="@dimen/_12ssp"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:src="@drawable/line"
+                android:background="@color/gray"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/categorieslist">
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/favoritenav"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".15"
+                    app:srcCompat="@drawable/ic_favorite_black_24dp" />
+
+                <TextView
+                    android:layout_weight=".8"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/favourite"
+                    android:textSize="@dimen/_12ssp"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:src="@drawable/line"
+                android:background="@color/gray"/>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/contactus"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_weight=".15"
+                app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+
+            <TextView
+                android:layout_weight=".8"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:text="@string/contactus"
+                android:textSize="@dimen/_12ssp"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/_30sdp" />
+
+        </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:src="@drawable/line"
+                android:background="@color/gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/aboutus"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".15"
+                    app:srcCompat="@drawable/ic_people_black_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".8"
+                    android:gravity="center_vertical"
+                    android:text="@string/aboutus"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

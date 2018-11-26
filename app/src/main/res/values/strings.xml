@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Eshop</string>
+    <string name="search">Search for something?</string>
+    <string name="DEALs">DEALS OF THE DAY</string>
+    <string name="viewall">view all</string>
+    <string name="lastest">LASTEST PRODUCTS</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="regist">Registration</string>
+    <string name="mix">Login/Registration</string>
+    <string name="home">Home</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="kids">Kids</string>
+    <string name="editsearch">Search</string>
+    <string name="shop">Shop</string>
+    <string name="favourite">Favourite</string>
+    <string name="contactus">Contact Us</string>
+    <string name="aboutus">About Us</string>
+    <string name="menu">Menu</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="totalprice">TOTAL PRICE</string>
+    <string name="loginandregist">Login &amp; Register</string>
+    <string name="detailsLogin">Please login or create an account for free</string>
+    <string name="productDetails">Product Details</string>
+    <string name="relatedItems">Related Items</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="loginfacebook">Login With Facebook</string>
+    <string name="signupfacebook">SignUp With Facebook</string>
+    <string name="donthave">Dont Have Account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="haveanaccount">Have An Account?</string>
+    <string name="Address1">Address 1</string>
+    <string name="Address2">Address 2</string>
+    <string name="phone">Phone</string>
+    <string name="postalcode">Postal Code</string>
+    <string name="next">NEXT</string>
+
+
+</resources>
